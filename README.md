@@ -36,6 +36,5 @@ A **Python toolkit** for numerically solving nonlinear systems of equations usin
 ## 🚀 Quick Start
 
 1. **Install Dependencies:**  
-   (If not already installed)
    ```bash
    pip install sympy numpy
