@@ -35,4 +35,4 @@ $$
    This code uses only [SymPy](https://www.sympy.org/) and [NumPy](https://numpy.org/) (most Python installations have these).
    ```bash
    pip install sympy numpy
-   python Gradient-Method.py
+  python Gradient-Method.py
