@@ -7,10 +7,12 @@ A **Python toolkit** for numerically solving nonlinear systems of equations usin
 ## 🧩 Project Overview
 
 - **🎯 Goal:**  
-  Efficiently solve nonlinear vector equations of the form  
+  Efficiently solve nonlinear vector equations of the form
+  
   $$
   \vec{F}(\vec{x}) = \vec{0}
   $$
+  
   using symbolic Jacobian computation and a gradient/Newton-like iterative approach.
 
 - **✨ Features:**  
