@@ -7,7 +7,8 @@ This repository contains a **Python implementation** and **scientific report** (
 ## 📋 Overview
 
 - **Goal:** Numerically solve systems of nonlinear equations of the form  
-  $$
+
+$$
 \vec{F}(\vec{x}) = \vec{0}
 $$
 
