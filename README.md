@@ -29,7 +29,7 @@ A **Python toolkit** for numerically solving nonlinear systems of equations usin
 | File Name              | Description                                                           |
 |------------------------|-----------------------------------------------------------------------|
 | `Gradient-Method.py`   | Python code with full in-line explanations and outputs                |
-| `Gradient-Method.pdf`  | Scientific Persian report: theory, equations, algorithm, sample runs  |
+| `Gradient-Method.pdf`  | Scientific report: theory, equations, algorithm, sample runs  |
 
 ---
 
