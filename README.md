@@ -7,7 +7,10 @@ This repository contains a **Python implementation** and **scientific report** (
 ## 📋 Overview
 
 - **Goal:** Numerically solve systems of nonlinear equations of the form  
-  $$\vec{F}(\vec{x}) = \vec{0}$$  
+  $$
+\vec{F}(\vec{x}) = \vec{0}
+$$
+
   using an iterative gradient-based (quasi-Newton) method.
 - **Features:**  
   - Symbolic Jacobian calculation using `sympy`
@@ -15,14 +18,13 @@ This repository contains a **Python implementation** and **scientific report** (
   - User-defined initial guess
   - Convergence criterion
   - Step-by-step matrix output for learning purposes
-  - Persian-language scientific report (`Gradient-Method.pdf`)
 
 ---
 
 ## 🛠 Files
 
 - **`Gradient-Method.py`** — Main Python code with detailed comments
-- **`Gradient-Method.pdf`** — Scientific report (in Persian) explaining theory, mathematical modeling, algorithm, and code
+- **`Gradient-Method.pdf`** — Scientific report explaining theory, mathematical modeling, algorithm, and code
 
 ---
 
