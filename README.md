@@ -1,38 +1,39 @@
-# Gradient Method for Nonlinear Systems
+# 🌄 Gradient Method for Nonlinear Systems
 
-This repository contains a **Python implementation** and **scientific report** (PDF, in Persian) for solving systems of nonlinear equations using the gradient (Newton-like) method.
-
----
-
-## 📋 Overview
-
-- **Goal:** Numerically solve systems of nonlinear equations of the form  
-
-$$
-\vec{F}(\vec{x}) = \vec{0}
-$$
-
-  using an iterative gradient-based (quasi-Newton) method.
-- **Features:**  
-  - Symbolic Jacobian calculation using `sympy`
-  - Iterative update based on gradient (Jacobian) direction
-  - User-defined initial guess
-  - Convergence criterion
-  - Step-by-step matrix output for learning purposes
+A **Python toolkit** for numerically solving nonlinear systems of equations using a gradient-based (quasi-Newton) iterative method. Includes a fully-documented Persian scientific report for theoretical foundations and educational purposes.
 
 ---
 
-## 🛠 Files
+## 🧩 Project Overview
 
-- **`Gradient-Method.py`** — Main Python code with detailed comments
-- **`Gradient-Method.pdf`** — Scientific report explaining theory, mathematical modeling, algorithm, and code
+- **🎯 Goal:**  
+  Efficiently solve nonlinear vector equations of the form  
+  $$
+  \vec{F}(\vec{x}) = \vec{0}
+  $$
+  using symbolic Jacobian computation and a gradient/Newton-like iterative approach.
+
+- **✨ Features:**  
+  - **Symbolic Jacobian:** Automatically computed via [`sympy`](https://www.sympy.org/)
+  - **Stepwise Solution:** Iterative update along the Jacobian direction
+  - **Custom Initialization:** User provides the initial guess interactively
+  - **Convergence Check:** Flexible tolerance for precision
+  - **Educational Output:** Step-by-step matrices printed for transparency and learning
 
 ---
 
-## 🚀 How to Run
+## 📂 Files in this Repository
+
+| File Name              | Description                                                           |
+|------------------------|-----------------------------------------------------------------------|
+| `Gradient-Method.py`   | Python code with full in-line explanations and outputs                |
+| `Gradient-Method.pdf`  | Scientific Persian report: theory, equations, algorithm, sample runs  |
+
+---
+
+## 🚀 Quick Start
 
 1. **Install Dependencies:**  
-   This code uses only [SymPy](https://www.sympy.org/) and [NumPy](https://numpy.org/) (most Python installations have these).
+   (If not already installed)
    ```bash
    pip install sympy numpy
-  python Gradient-Method.py
